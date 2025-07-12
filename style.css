@@ -1,32 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Aspiring Human</title>
-  <!-- Vintage-style Google Font: "Special Elite" -->
-  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      background-color: #f5f1e9; /* soft warm vintage paper color */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      font-family: 'Special Elite', cursive;
-      color: #5a3e1b; /* warm brown */
-    }
-    h1 {
-      font-size: 4rem;
-      letter-spacing: 0.1em;
-      text-shadow:
-        2px 2px 0 #d9c9b8,
-        4px 4px 5px rgba(0,0,0,0.15);
-      user-select: none;
-    }
-  </style>
-</head>
-<body>
-  <h1>Aspiring Human</h1>
-</body>
-</html>
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+/* Make sure html and body take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f5f1e9; /* vintage paper tone */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  font-family: 'Courier Prime', monospace;
+  color: #5a3e1b; /* warm brown */
+}
+
+/* Style the heading */
+h1 {
+  font-size: 5rem;
+  letter-spacing: 0.15em;
+  text-shadow:
+    2px 2px 0 #d9c9b8,
+    4px 4px 6px rgba(0,0,0,0.15);
+  user-select: none;
+  margin: 0;
+}
