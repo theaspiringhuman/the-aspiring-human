@@ -8,8 +8,8 @@ html, body {
   background-color: #f5f1e9; /* vintage paper tone */
   display: flex;
   flex-direction: column; /* Stack vertically */
-  justify-content: center; /* horizontal center */
-  align-items: center;     /* vertical center */
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
   font-family: 'Courier Prime', monospace;
   color: #5a3e1b; /* warm brown */
 }
